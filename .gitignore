@@ -1,0 +1,44 @@
+# .gitignore for TeamTalk PyOS Project
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# TeamTalk SDK Files (add these to your local copy only)
+# Do not commit binary files to git
+lib/TeamTalk5.dll
+lib/libTeamTalk5.so*
+lib/libTeamTalk5.dylib
+lib/*.a
+lib/*.lib
+
+# Logs
+teamtalk.log
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+.~*
+
+# User data (optional - uncomment if needed)
+# *.ini
+# config/
